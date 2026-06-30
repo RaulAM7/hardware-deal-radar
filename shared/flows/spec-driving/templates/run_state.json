@@ -1,0 +1,39 @@
+{
+  "case_id": "",
+  "run_id": "",
+  "mode": "standard",
+  "run_status": "INITIALIZED",
+  "active_stage": "00",
+  "stage_statuses": {
+    "00": "READY",
+    "01": "PENDING",
+    "02": "PENDING",
+    "03": "PENDING",
+    "04": "PENDING",
+    "06": "PENDING"
+  },
+  "artifact_paths": {
+    "00": "context/00_intake_context_pack.md",
+    "01": "artifacts/01_problem_audit_v1.md",
+    "02": "artifacts/02_mvp_scope_decision_v1.md",
+    "03": "artifacts/03_technical_presales_blueprint_v1.md",
+    "04": "artifacts/04_commercial_proposal_v1.md",
+    "06": "artifacts/06_execution_plan_v1.md"
+  },
+  "review_paths": {},
+  "iteration_counts": {
+    "00": 0,
+    "01": 0,
+    "02": 0,
+    "03": 0,
+    "04": 0,
+    "06": 0
+  },
+  "max_iterations": null,
+  "blocked_questions": [],
+  "assumptions": [],
+  "overrides": [],
+  "last_action": "initialized",
+  "next_action": "Add raw material to raw/ and run Stage 00.",
+  "updated_at": ""
+}

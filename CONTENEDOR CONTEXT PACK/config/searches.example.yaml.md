@@ -1,0 +1,78 @@
+# searches.example.yaml
+
+Ejemplo conceptual de configuración de búsquedas.
+
+Cuando se implemente el sistema, este contenido debería convertirse en `config/searches.yaml`.
+
+```yaml
+searches:
+  - name: thinkpad_p14s_64gb
+    enabled: true
+    query: "ThinkPad P14s 64GB"
+    marketplaces:
+      - EBAY_ES
+      - EBAY_DE
+      - EBAY_IT
+      - EBAY_GB
+    min_ram_gb: 32
+    preferred_ram_gb: 64
+    max_estimated_total_eur: 1200
+    strong_alert_threshold: 80
+    digest_threshold: 60
+    positive_keywords:
+      - "64GB"
+      - "64 GB"
+      - "1TB"
+      - "Ryzen 7 PRO"
+      - "7840U"
+      - "8840U"
+    negative_keywords:
+      - "for parts"
+      - "spares"
+      - "defective"
+      - "broken"
+      - "BIOS locked"
+      - "not working"
+
+  - name: thinkpad_t14_64gb
+    enabled: true
+    query: "ThinkPad T14 64GB"
+    marketplaces:
+      - EBAY_ES
+      - EBAY_DE
+      - EBAY_IT
+      - EBAY_GB
+    min_ram_gb: 32
+    preferred_ram_gb: 64
+    max_estimated_total_eur: 1200
+    strong_alert_threshold: 80
+    digest_threshold: 60
+
+  - name: thinkpad_t16_64gb
+    enabled: true
+    query: "ThinkPad T16 64GB"
+    marketplaces:
+      - EBAY_ES
+      - EBAY_DE
+      - EBAY_IT
+      - EBAY_GB
+    min_ram_gb: 32
+    preferred_ram_gb: 64
+    max_estimated_total_eur: 1200
+    strong_alert_threshold: 80
+    digest_threshold: 60
+
+  - name: thinkpad_p1_64gb
+    enabled: true
+    query: "ThinkPad P1 64GB"
+    marketplaces:
+      - EBAY_ES
+      - EBAY_DE
+      - EBAY_IT
+      - EBAY_GB
+    min_ram_gb: 32
+    preferred_ram_gb: 64
+    max_estimated_total_eur: 1300
+    strong_alert_threshold: 85
+    digest_threshold: 65
+```

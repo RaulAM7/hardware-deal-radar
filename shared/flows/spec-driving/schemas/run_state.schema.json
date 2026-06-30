@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SpecDrivingRunState",
+  "type": "object",
+  "required": [
+    "case_id",
+    "run_id",
+    "mode",
+    "run_status",
+    "active_stage",
+    "stage_statuses",
+    "artifact_paths",
+    "review_paths",
+    "iteration_counts",
+    "blocked_questions",
+    "assumptions",
+    "overrides",
+    "last_action",
+    "next_action",
+    "updated_at"
+  ],
+  "properties": {
+    "case_id": { "type": "string" },
+    "run_id": { "type": "string" },
+    "mode": { "type": "string", "enum": ["standard"] },
+    "run_status": {
+      "type": "string",
+      "enum": [
+        "INITIALIZED",
+        "IN_PROGRESS",
+        "BLOCKED",
+        "PRE_SALES_COMPLETE",
+        "IMPLEMENTATION_READY",
+        "COMPLETED",
+        "FAILED"
+      ]
+    },
+    "active_stage": {
+      "type": ["string", "null"],
+      "enum": ["00", "01", "02", "03", "04", "06", null]
+    },
+    "stage_statuses": {
+      "type": "object",
+      "patternProperties": {
+        "^(00|01|02|03|04|06)$": {
+          "type": "string",
+          "enum": [
+            "PENDING",
+            "READY",
+            "RUNNING",
+            "IN_REVIEW",
+            "REVISION_REQUIRED",
+            "PASSED",
+            "FAILED",
+            "BLOCKED",
+            "SKIPPED"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "artifact_paths": { "type": "object" },
+    "review_paths": { "type": "object" },
+    "iteration_counts": { "type": "object" },
+    "max_iterations": { "type": ["integer", "null"], "minimum": 1 },
+    "blocked_questions": { "type": "array", "items": { "type": "string" } },
+    "assumptions": { "type": "array", "items": { "type": "string" } },
+    "overrides": { "type": "array", "items": { "type": "object" } },
+    "last_action": { "type": "string" },
+    "next_action": { "type": "string" },
+    "updated_at": { "type": "string" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,72 @@
+{
+  "case_id": "",
+  "run_id": "",
+  "artifacts": {
+    "00": {
+      "stage_id": "00",
+      "expected_path": "context/00_intake_context_pack.md",
+      "current_path": null,
+      "latest_review_path": null,
+      "approved_review_path": null,
+      "latest_verdict": null,
+      "iteration_count": 0,
+      "source_required": true,
+      "status": "READY"
+    },
+    "01": {
+      "stage_id": "01",
+      "expected_path": "artifacts/01_problem_audit_v1.md",
+      "current_path": null,
+      "latest_review_path": null,
+      "approved_review_path": null,
+      "latest_verdict": null,
+      "iteration_count": 0,
+      "source_required": true,
+      "status": "PENDING"
+    },
+    "02": {
+      "stage_id": "02",
+      "expected_path": "artifacts/02_mvp_scope_decision_v1.md",
+      "current_path": null,
+      "latest_review_path": null,
+      "approved_review_path": null,
+      "latest_verdict": null,
+      "iteration_count": 0,
+      "source_required": true,
+      "status": "PENDING"
+    },
+    "03": {
+      "stage_id": "03",
+      "expected_path": "artifacts/03_technical_presales_blueprint_v1.md",
+      "current_path": null,
+      "latest_review_path": null,
+      "approved_review_path": null,
+      "latest_verdict": null,
+      "iteration_count": 0,
+      "source_required": true,
+      "status": "PENDING"
+    },
+    "04": {
+      "stage_id": "04",
+      "expected_path": "artifacts/04_commercial_proposal_v1.md",
+      "current_path": null,
+      "latest_review_path": null,
+      "approved_review_path": null,
+      "latest_verdict": null,
+      "iteration_count": 0,
+      "source_required": true,
+      "status": "PENDING"
+    },
+    "06": {
+      "stage_id": "06",
+      "expected_path": "artifacts/06_execution_plan_v1.md",
+      "current_path": null,
+      "latest_review_path": null,
+      "approved_review_path": null,
+      "latest_verdict": null,
+      "iteration_count": 0,
+      "source_required": true,
+      "status": "PENDING"
+    }
+  }
+}
