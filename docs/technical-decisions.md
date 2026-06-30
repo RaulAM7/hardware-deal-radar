@@ -1,7 +1,9 @@
 # Technical Decisions
 
 - [inferred] Use Python 3.12+ for v1 implementation.
+- [inferred] Use `uv` for dependency management with a normal `.venv`.
 - [inferred] Use SQLite for v1 persistence.
+- [inferred] Use SQLModel for SQLite models and repository implementation.
 - [inferred] Use YAML files for search, scoring, and marketplace configuration.
 - [inferred] Use a CLI as the primary interface.
 - [inferred] Use official eBay Browse API as the only v1 source.

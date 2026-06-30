@@ -58,14 +58,14 @@
 
 ## Acceptance Criteria
 
-- [ ] There is a numbered spec set covering project foundation, config, eBay API, normalization, storage/deduplication, scoring, alerts, CLI, deployment, tests, observability, and docs.
-- [ ] Each spec includes objective, scope, out-of-scope, expected files/modules, tasks, acceptance criteria, tests/checks, risks, and assumptions.
-- [ ] `codex/implementation-plan.md` defines the implementation order and dependencies between specs.
-- [ ] Closed decisions remain aligned with `docs/technical-decisions.md`.
-- [ ] Assumptions remain aligned with `docs/assumptions.md`.
-- [ ] The plan explicitly preserves mock, dry-run, and noop behavior so credentials do not block implementation.
-- [ ] The plan keeps the previous npm scaffold direction out of active implementation.
-- [ ] A deliverable note is written under `04_outputs/`.
+- [x] There is a numbered spec set covering project foundation, config, eBay API, normalization, storage/deduplication, scoring, alerts, CLI, deployment, tests, observability, and docs.
+- [x] Each spec includes objective, scope, out-of-scope, expected files/modules, tasks, acceptance criteria, tests/checks, risks, and assumptions.
+- [x] `codex/implementation-plan.md` defines the implementation order and dependencies between specs.
+- [x] Closed decisions remain aligned with `docs/technical-decisions.md`.
+- [x] Assumptions remain aligned with `docs/assumptions.md`.
+- [x] The plan explicitly preserves mock, dry-run, and noop behavior so credentials do not block implementation.
+- [x] The plan keeps the previous npm scaffold direction out of active implementation.
+- [x] A deliverable note is written under `04_outputs/`.
 
 ## Risks and Edge Cases
 
