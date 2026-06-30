@@ -1,0 +1,101 @@
+{
+  "itemSummaries": [
+    {
+      "itemId": "v1|100000001|0",
+      "title": "Lenovo ThinkPad P14s Gen 4 AMD Ryzen 7 PRO 7840U 64GB RAM 1TB SSD",
+      "itemWebUrl": "https://www.ebay.de/itm/100000001?hash=item1",
+      "price": {
+        "value": "849.00",
+        "currency": "EUR"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "29.00",
+            "currency": "EUR"
+          }
+        }
+      ],
+      "condition": "Used",
+      "itemLocation": {
+        "country": "DE"
+      },
+      "seller": {
+        "username": "business-laptops",
+        "feedbackPercentage": "99.5",
+        "feedbackScore": 2456,
+        "topRatedSeller": true,
+        "sellerType": "business"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "returnsAccepted": true,
+      "warrantyAvailable": true,
+      "shortDescription": "German keyboard, clean condition."
+    },
+    {
+      "itemId": "v1|100000002|0",
+      "title": "Lenovo ThinkPad T14 Gen 3 32 GB RAM 512GB SSD Intel i7-1260P",
+      "itemWebUrl": "https://www.ebay.es/itm/100000002",
+      "price": {
+        "value": "899.00",
+        "currency": "EUR"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "0.00",
+            "currency": "EUR"
+          }
+        }
+      ],
+      "condition": "Used",
+      "itemLocation": {
+        "country": "ES"
+      },
+      "seller": {
+        "username": "iberia-tech",
+        "feedbackPercentage": "98.7",
+        "feedbackScore": 512,
+        "sellerType": "business"
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "returnsAccepted": true,
+      "shortDescription": "Spanish keyboard, good condition."
+    },
+    {
+      "itemId": "v1|100000003|0",
+      "title": "ThinkPad X1 Extreme broken for parts no boot 64GB",
+      "itemWebUrl": "https://www.ebay.co.uk/itm/100000003",
+      "price": {
+        "value": "220.00",
+        "currency": "GBP"
+      },
+      "shippingOptions": [
+        {
+          "shippingCost": {
+            "value": "25.00",
+            "currency": "GBP"
+          }
+        }
+      ],
+      "condition": "For parts or not working",
+      "itemLocation": {
+        "country": "GB"
+      },
+      "seller": {
+        "username": "parts-only-seller",
+        "feedbackPercentage": "92.0",
+        "feedbackScore": 21
+      },
+      "buyingOptions": [
+        "FIXED_PRICE"
+      ],
+      "returnsAccepted": false,
+      "shortDescription": "No boot, for parts."
+    }
+  ]
+}

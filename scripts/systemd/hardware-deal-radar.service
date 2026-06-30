@@ -1,0 +1,16 @@
+[Unit]
+Description=Hardware Deal Radar scheduled run
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=__RADAR_USER__
+Group=__RADAR_GROUP__
+WorkingDirectory=__RADAR_APP_DIR__
+Environment=PYTHONUNBUFFERED=1
+Environment=PATH=__RADAR_APP_DIR__/.venv/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=__RADAR_APP_DIR__/.venv/bin/radar run-once
+
+[Install]
+WantedBy=multi-user.target

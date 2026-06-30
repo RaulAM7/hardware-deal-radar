@@ -1,0 +1,52 @@
+marketplaces:
+  EBAY_ES:
+    label: "eBay Espana"
+    country: "ES"
+    currency: "EUR"
+    marketplace_id: "EBAY_ES"
+    base_risk_penalty: 0
+    import_risk_penalty: 0
+    keyboard_risk_penalty: 0
+    eur_exchange_rate: 1.0
+    in_eu: true
+    language: "es"
+    notes: "Mercado de menor friccion logistica/fiscal."
+
+  EBAY_DE:
+    label: "eBay Alemania"
+    country: "DE"
+    currency: "EUR"
+    marketplace_id: "EBAY_DE"
+    base_risk_penalty: 2
+    import_risk_penalty: 0
+    keyboard_risk_penalty: 5
+    eur_exchange_rate: 1.0
+    in_eu: true
+    language: "de"
+    notes: "Mercado prioritario por volumen business/ThinkPad. Penalizar teclado aleman."
+
+  EBAY_IT:
+    label: "eBay Italia"
+    country: "IT"
+    currency: "EUR"
+    marketplace_id: "EBAY_IT"
+    base_risk_penalty: 2
+    import_risk_penalty: 0
+    keyboard_risk_penalty: 4
+    eur_exchange_rate: 1.0
+    in_eu: true
+    language: "it"
+    notes: "Mercado complementario. Penalizar teclado/logistica levemente."
+
+  EBAY_GB:
+    label: "eBay Reino Unido"
+    country: "GB"
+    currency: "GBP"
+    marketplace_id: "EBAY_GB"
+    base_risk_penalty: 8
+    import_risk_penalty: 10
+    keyboard_risk_penalty: 2
+    eur_exchange_rate: 1.17
+    in_eu: false
+    language: "en"
+    notes: "Penalizar por aduanas, devoluciones y coste total incierto."

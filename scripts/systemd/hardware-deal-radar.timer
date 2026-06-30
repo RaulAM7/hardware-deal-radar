@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Hardware Deal Radar every 6 hours
+
+[Timer]
+OnCalendar=*-*-* 00/6:00:00
+Persistent=true
+Unit=hardware-deal-radar.service
+
+[Install]
+WantedBy=timers.target
